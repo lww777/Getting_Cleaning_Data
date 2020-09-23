@@ -13,12 +13,12 @@ This script performs operations as follows:
 
 Variables:
 * "url" variable contains files URL
-    * "X_train", "X_test", "y_train", "y_test", "subjet_test", "subject_train" contain files from downloaded data
-    * "features" variable contains features data
-    * "label" variable contains activity_labels data
-    * "X" variable contains all data related to X
-    * "y" variable contains all data related to y
-    * "subject" variable contains all data related to subject
-    * "needed_features" variable contains variabels related only to mean or standard deviation
-    * "data" variable contains all merged data
-    * "tidy" variable contains data set with the average of each variable for each activity and each subject
+* "X_train", "X_test", "y_train", "y_test", "subjet_test", "subject_train" contain files from downloaded data
+* "features" variable contains features data
+* "label" variable contains activity_labels data
+* "X" variable contains all data related to X
+* "y" variable contains all data related to y
+* "subject" variable contains all data related to subject
+* "needed_features" variable contains variabels related only to mean or standard deviation
+* "data" variable contains all merged data
+* "tidy" variable contains data set with the average of each variable for each activity and each subject

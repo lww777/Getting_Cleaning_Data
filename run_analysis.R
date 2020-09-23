@@ -49,9 +49,9 @@ subject <- rbind(subject_train, subject_test)
 
 data <- cbind(X, y, subject)
 data <- rename(data, activities = y, subject = V1)
-names(data) <- gsub("Mag", "Magnitude", names(data))
 names(data) <- gsub("^t", "Time", names(data))
 names(data) <- gsub("^f", "Frequency", names(data))
+names(data) <- gsub("Mag", "Magnitude", names(data))
 names(data) <- gsub("tBody", "TimeBody", names(data))
 
 # Creating a new data set with averages

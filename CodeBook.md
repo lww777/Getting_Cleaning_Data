@@ -1,4 +1,4 @@
-# Data description
+# Description
 
 The data set represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 It relates to the wearable computing.
@@ -12,7 +12,7 @@ This script performs operations as follows:
 5. Creating new data set with the averages.
 
 Variables:
-    * "url" variable contains files URL
+* "url" variable contains files URL
     * "X_train", "X_test", "y_train", "y_test", "subjet_test", "subject_train" contain files from downloaded data
     * "features" variable contains features data
     * "label" variable contains activity_labels data

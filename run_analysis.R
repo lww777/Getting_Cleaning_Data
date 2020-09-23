@@ -57,4 +57,4 @@ names(data) <- gsub("tBody", "TimeBody", names(data))
 # Creating a new data set with averages
 
 tidy <- summarize_all(group_by(data, subject, activities), mean)
-write.table(tidy, "./tidy_data.txt", row.name = FALSE )
+write.table(tidy, "./tidy_data.txt", row.name = FALSE)

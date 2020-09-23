@@ -7,7 +7,7 @@ It is in a zip archive and stored in ".txt"" files.
 This script performs operations as follows:
 1. Downloading all of the needed libraries;
 2. Downloading and unzipping the file;
-3. Reading data from ".txt" files and processing it;
+3. Reading data from ".txt" files and processing it (renaming, reshaping, subsetting);
 4. Creating data set by merging the others;
 5. Creating new data set with the averages.
 
